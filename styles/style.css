@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(52,51,52);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+#teclas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+
+.tecla{
+    border: 2px solid white;
+    margin: 4px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.tecla.active {
+    border: 2px solid #FF0;
+    color: #FF0;
+}
+
+input,button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px;
+}
+input{
+   outline: 0; 
+}
+
+button{
+    background-color: rgb(52,51,52);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+#caixa-botao{
+    display: flex;
+    flex-direction: column;
+}
